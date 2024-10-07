@@ -3,8 +3,10 @@ package bai71;
 public class quanLyTrangTrai {
     public class dongVat {
         public boolean khaNangDiBo() {
+            return true;
         }
         public boolean khaNangDiBoi() {
+            return true;
         }
     }
     public class lon extends dongVat {
