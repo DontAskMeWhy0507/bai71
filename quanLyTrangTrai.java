@@ -1,5 +1,6 @@
 package bai71;
 
+
 public class quanLyTrangTrai {
     public class dongVat {
         public boolean khaNangDiBo() {
@@ -10,28 +11,18 @@ public class quanLyTrangTrai {
         }
     }
     public class lon extends dongVat {
-        public boolean khaNangDiBo() {
-            return true;
-        }
+
         public boolean khaNangDiBoi() {
             return false;
         }
     }
     public class vit extends dongVat {
-        public boolean khaNangDiBo() {
-            return true;
-        }
-        public boolean khaNangDiBoi() {
-            return true;
-        }
+
     }
 
     public class ca extends dongVat {
         public boolean khaNangDiBo() {
             return false;
-        }
-        public boolean khaNangDiBoi() {
-            return true;
         }
     }
 
